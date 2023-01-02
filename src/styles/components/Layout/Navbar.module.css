@@ -8,7 +8,6 @@
 }
 .nome{
   
-  border: #000;
 }
 .navbar .botao {
   display: inline-block;
@@ -34,9 +33,7 @@
 .navbar .mobilenavigation{
   display: none;
 }
-.logomobile{
-  display: none;
-}
+
 
 
 @media(max-width: 990px){
@@ -44,12 +41,7 @@
     display: none;
   }
 
-  .nome{
-    display: none;
-  }
-.logomobile{
-    display: flex;
-  }
+
 
   .navbar .mobilenavigation{
     display: flex;
@@ -72,7 +64,24 @@
   
 .nav_links ul{ 
   display: flex;
+  width: 100%;
   flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 50;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.32);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.3px);
+-webkit-backdrop-filter: blur(3.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.navbar .botao:hover{
+  border-bottom: 1px solid var(--brand2);
+  transition: 0.5s;
 
 }
 
