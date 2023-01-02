@@ -6,8 +6,6 @@
   align-items: center;
   justify-items: center;
   width: 100%;
-  margin-top: 2rem;
-
   
 }
 
@@ -18,7 +16,8 @@
   text-align: left;
   width: 50vh;
   padding: 20px;
-  margin-right: 20rem;
+  margin: 0 20rem 6rem 0 ;
+
 
 }
 
