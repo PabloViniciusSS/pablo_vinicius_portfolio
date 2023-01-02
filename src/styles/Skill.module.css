@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 35vh;
+  background-color: var(--brand);
+
+}
+.container_skill{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 0;
+  gap: 2rem;
+}
+
+.container h2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}

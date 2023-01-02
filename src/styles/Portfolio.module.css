@@ -1,0 +1,35 @@
+.container_portfolio{
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap: 2rem;
+  height: auto;
+  width: 100%;
+  background-color: var(--brand)
+}
+.container_portfolio h2{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top: 4rem ;
+}
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+@media (max-width: 798px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    }
+ 
+    }

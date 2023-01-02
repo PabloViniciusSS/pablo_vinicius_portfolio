@@ -1,0 +1,79 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--brand);
+
+}
+.nome{
+  
+  border: #000;
+}
+.navbar .botao {
+  display: inline-block;
+  margin: 1.5vw;
+  cursor: pointer;
+  margin: 0 1.5vw 0 1.5vw;
+}
+
+
+.mobilenavigation {
+  font-size: 2rem;
+  margin-right: 2px;
+
+
+}
+
+.navbar .botao:hover{
+  border-bottom: 1px solid var(--brand2);
+  transition: 0.5s;
+
+}
+
+.navbar .mobilenavigation{
+  display: none;
+}
+.logomobile{
+  display: none;
+}
+
+
+@media(max-width: 990px){
+  .navbar .navigation{
+    display: none;
+  }
+
+  .nome{
+    display: none;
+  }
+.logomobile{
+    display: flex;
+  }
+
+  .navbar .mobilenavigation{
+    display: flex;
+    align-items: center;
+    background-color: var(--brand);
+
+  }
+  .navbar .mobilenavigation .hamburger{
+    position: flex;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .navbar .nav {
+    display: flex;
+    background-color: var(--brand2);
+
+  }
+
+  
+.nav_links ul{ 
+  display: flex;
+  flex-direction: column;
+
+}
+
+}

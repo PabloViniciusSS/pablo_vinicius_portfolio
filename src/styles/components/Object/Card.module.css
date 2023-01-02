@@ -1,0 +1,40 @@
+.container_card{
+  display: grid;
+  grid-auto-columns: auto auto;
+  flex-wrap: nowrap;
+  width: 20vh;
+  height: 20vh;
+  align-items: center;
+  justify-items: center;
+  transition: all 0.3s ease-out;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  background-color:  var(--brand2);
+
+}
+
+.container_card span {
+  font-size: 6rem;
+  color: #fff
+  
+}
+
+.container_card p {
+  color: #fff
+  
+}
+
+.container_card:hover{
+  transform: translateY(-5px);
+}
+
+
+@media (max-width: 768px) {
+  .container_card{
+    background-color: transparent;
+    color: #fff;
+  }
+  .container_card p {
+    display: none;
+    
+  }
+}

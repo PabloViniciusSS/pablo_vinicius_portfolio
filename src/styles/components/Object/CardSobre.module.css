@@ -1,0 +1,98 @@
+
+.container_sobre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  width: 100vh;
+  margin-top: 2rem;
+
+
+
+  
+}
+
+.container_sobre h3{
+  font-weight: bold
+}
+.container_sobre .container_text{
+  text-align: left;
+  width: 50vh;
+
+  
+}
+
+.image{
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+
+}
+
+
+.contatos
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50vh;
+  margin:10px;
+  padding:20px;
+  border:1px solid rgba(0,0,0,0.2);
+  border-radius:25px;
+  box-shadow:0 0 15px rgba(0,0,0,0.5);
+  font-size:0.9em;
+  transition:all 0.2s ease-in-out;
+  text-align:center;
+  
+}
+
+
+
+.photo
+{
+    display:inline-block;
+    float:left;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("../../../public/lado.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    top:75px;
+    box-shadow:0 0 2px rgba(0,0,0,0.5);
+    transition:all 0.5s ease-in-out;
+
+   
+}
+
+
+
+.detalhes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  min-width:250px;  
+}
+
+
+
+  
+
+
+
+
+
+@media (max-width: 768px) {
+ .container_sobre{
+  margin-top: 2rem;
+  flex-direction: column;
+  justify-content: center;
+
+ 
+ } 
+
+}

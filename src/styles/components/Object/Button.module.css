@@ -1,0 +1,19 @@
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color:  var(--brand2); 
+  margin: 1rem;
+  width: 7rem;
+  max-width: 10rem;
+  max-height: 5rem;
+  height: 2rem;
+  border-radius: 10%;
+  font-size: 1rem;
+  color: #fff;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+
+
+}
+
