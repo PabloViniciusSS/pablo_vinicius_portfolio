@@ -44,11 +44,7 @@ export default function Skill() {
         icone={<DiYii/>}
         text='Yii'/>
       </div>
-        <div className={styles.card}>
-      <Card 
-        icone={<DiYii/>}
-        text='Yii'/>
-      </div>
+    
       
       
       

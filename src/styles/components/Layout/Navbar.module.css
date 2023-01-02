@@ -1,88 +1,80 @@
 .navbar{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  justify-items: center;
   align-items: center;
-  width: 100%;
-  background-color: var(--brand);
-
-}
-.nome{
-  
-}
-.navbar .botao {
-  display: inline-block;
-  margin: 1.5vw;
-  cursor: pointer;
-  margin: 0 1.5vw 0 1.5vw;
+  margin: 10px;
 }
 
-
-.mobilenavigation {
-  font-size: 2rem;
-  margin-right: 2px;
-
-
-}
-
-.navbar .botao:hover{
-  border-bottom: 1px solid var(--brand2);
-  transition: 0.5s;
-
-}
-
-.navbar .mobilenavigation{
+.mobilenavigation{
   display: none;
 }
 
 
 
-@media(max-width: 990px){
-  .navbar .navigation{
-    display: none;
-  }
-
-
-
-  .navbar .mobilenavigation{
-    display: flex;
-    align-items: center;
-    background-color: var(--brand);
-
-  }
-  .navbar .mobilenavigation .hamburger{
-    position: flex;
-    margin-right: 20px;
+@media screen and (max-width: 768px) {
+  .mobilenavigation{
+    display: block;
     cursor: pointer;
+    margin-right: 50px;
   }
 
-  .navbar .nav {
-    display: flex;
-    background-color: var(--brand2);
 
+
+
+  .mobilenavigation .nav_hamburger .hamburger{
+    border: 0;
+    height: 80px;
+    width: 60px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    transform: translateY(-50%);
+    
   }
-
-  
-.nav_links ul{ 
+.nav_links{
   display: flex;
-  width: 100%;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.nav_links ul{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 32px;
+    width: 20vh;
+    height: 400px;
+    background: rgba( 255, 255, 255, 0.6 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 0;
+    padding: 1.5rem 0;
+
+}
+.nav_links ul:hover{
+  border-bottom: solid 1px var(--brand);
+}
+ .NavLinks{
+  display: none;
+ }
+
+ .navigation{
+  display: none;
   position: absolute;
-  right: 0;
-  top: 100;
-  /* From https://css.glass */
-background: rgba(255, 255, 255, 0.32);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.3px);
--webkit-backdrop-filter: blur(3.3px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-
-}
-
-.navbar .botao:hover{
-  border-bottom: 1px solid var(--brand2);
-  transition: 0.5s;
-
-}
-
+  top: 60px;
+  left: 0;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid black;
+ }
 }

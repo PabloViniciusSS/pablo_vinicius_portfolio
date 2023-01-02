@@ -34,7 +34,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 60vh;
+  width: 70vh;
   padding:20px;
   border:1px solid rgba(0,0,0,0.2);
   border-radius:25px;
@@ -52,8 +52,8 @@
     display:inline-block;
     float:left;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: white;
     margin: 0 auto;
     background-image: url("/lado.jpg");
@@ -62,7 +62,6 @@
     top:75px;
     box-shadow:0 0 2px rgba(0,0,0,0.5);
     transition:all 0.5s ease-in-out;
-    border: solid 1px #000;
 
    
 }
@@ -71,10 +70,19 @@
 
 .detalhes {
   display: flex;
+  gap: 16px;
+  margin-bottom: 10px;
   flex-direction: row;
+  justify-items: center;
   align-items: center;
   min-width:250px;  
-  border: solid 1px #000;
+  font-size: 1.4rem;
+  
+}
+
+.container_detalhes p{
+  font-size: 1.2rem;
+
 }
 
 

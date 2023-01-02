@@ -5,12 +5,13 @@
   justify-content: center;
   text-align: center;
   width: 100%;
-  min-height: 35vh;
+  min-height: 40vh;
   background-color: var(--brand);
 
 }
 .container_skill{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 20px 0 20px;
   flex-direction: row;

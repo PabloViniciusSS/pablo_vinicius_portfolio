@@ -1,9 +1,11 @@
 .container_card{
-  display: grid;
-  grid-auto-columns: auto auto;
-  flex-wrap: nowrap;
-  width: 20vh;
-  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 180px;
+  height: 180px;
+  min-width: 15vh;
+  min-height: 15vh;
   align-items: center;
   justify-items: center;
   transition: all 0.3s ease-out;
@@ -14,13 +16,14 @@
 
 .container_card span {
   font-size: 6rem;
-  color: #fff
+  color: #fff;
+
   
 }
 
 .container_card p {
-  color: #fff
-  
+  color: #fff;
+
 }
 
 .container_card:hover{
@@ -32,6 +35,7 @@
   .container_card{
     background-color: transparent;
     color: #fff;
+  
   }
   .container_card p {
     display: none;
