@@ -2,10 +2,10 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Apresentacao from './apresentacao'
-import Portfolio from './portfolio'
-import Skill from './skill'
-import Sobre from './sobre'
+import Apresentacao from '../section/apresentacao'
+import Portfolio from '../section/portfolio'
+import Skill from '../section/skill'
+import Sobre from '../section/sobre'
 
 export default function Home() {
   return (

@@ -15,7 +15,7 @@ export const CardPortfolio = (props) => {
       text='Veja mais'
       
       />
-       <Image className={styles.img} src={props.caminho} />
+       <img className={styles.img} src={props.caminho} />
       </div>
     </div>
   )

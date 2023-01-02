@@ -6,9 +6,9 @@ export const NavLinks = () => {
   return (
     <div className={styles.navbar_links}>
       <ul>
-      <Link href="/skill" className={styles.botao}> Skill</Link>
-      <Link href="/sobre"className={styles.botao}> Sobre</Link>
-      <Link href="/portfolio" className={styles.botao}> Portfolio</Link>
+      <Link href="#SkillSection" className={styles.botao}> Skill</Link>
+      <Link href="#SobreSection"className={styles.botao}> Sobre</Link>
+      <Link href="#PortfolioSection" className={styles.botao}> Portfolio</Link>
 
       </ul>
      

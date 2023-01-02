@@ -4,11 +4,11 @@ import styles from '../styles/Sobre.module.css'
 
 export default function Sobre() {
   return (
-    <div className={styles.container}>
+    <section id="SobreSection" className={styles.container}>
     <h2>Sobre</h2>
     <div className={styles.container_sobre}>
       <CardSobre/>
     </div>
-  </div>
+  </section>
   )
 }

@@ -5,7 +5,7 @@ import styles from '../styles/Skill.module.css'
 
 export default function Skill() {
   return (
-    <div className={styles.container}>
+    <section id="SkillSection" className={styles.container}>
     <h2>Skill</h2>
   <div className={styles.container_skill}>
     <div className={styles.card}>
@@ -53,6 +53,6 @@ export default function Skill() {
       
       
   </div>
-  </div>
+  </section>
   )
 }
