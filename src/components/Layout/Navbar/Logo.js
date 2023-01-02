@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Nome from '../../../public/nome.png'
+import Nome from '/nome.png'
 import styles from '../../../styles/components/Layout/Navbar.module.css'
 
 export const Logo = () => {
