@@ -1,12 +1,13 @@
 .container_portfolio{
   display:flex;
   flex-direction:column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content:center;
   gap: 2rem;
   height: auto;
   width: 100%;
-  background-color: var(--brand)
+  background-color: var(--brand);
+  border: solid 1px #000;
 }
 .container_portfolio h2{
 
@@ -14,15 +15,15 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  margin-top: 4rem ;
+
 }
 .container{
   display:flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
-  height: 100%;
+
 
 }
 
@@ -31,7 +32,6 @@
 @media (max-width: 798px) {
   .container{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-items: center;
     }

@@ -1,27 +1,35 @@
-.container_contato{
+
+.container_detalhes{
     display: flex;
-    width: 25vh;
-    height: 25vh;
-    border-radius: 15%;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    transition: all 0.3s ease-out;
-    transform: translateY(-5px);
+
     cursor: pointer;
-}
-.container_contato:hover{
-    border: solid 5px var(--brand);
+
 }
 
-.container_contato icon{
-    font-size: 2rem;
+
+.container_detalhes icon{
+    display: flex;
+    font-size: 25px;
     color: var(--brand2);
 }
 
-.container_contato p{
-    font-weight: bolder;
+.container_detalhes p{
+    font-weight: 400;
+    font-size: 18px;
     color: var(--brand2);
+    box-shadow: 0 5px 0 0px rgba(50, 50, 50, 0.22);
 
 }
+
+.container_detalhes h4{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 15px 0 15px;
+    
+}
+
