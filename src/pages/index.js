@@ -6,6 +6,8 @@ import Apresentacao from '../section/apresentacao'
 import Portfolio from '../section/portfolio'
 import Skill from '../section/skill'
 import Sobre from '../section/sobre'
+import { CardContato } from '../components/Object/CardContato'
+import Contato from '../section/Contato'
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <Skill />
         <Sobre />
         <Portfolio />
+        <Contato />
        </main>
     </div>
   )

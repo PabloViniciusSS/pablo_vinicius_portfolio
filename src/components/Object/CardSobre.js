@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/components/Object/CardSobre.module.css'
-import { BsFillPersonFill, BsFillFilePersonFill, BsWhatsapp  } from "react-icons/bs";
+import { BsFillPersonFill, BsFillFilePersonFill, BsWhatsapp, BsGithub, BsLinkedin  } from "react-icons/bs";
 import { MdEmail  } from "react-icons/md";
 
 
@@ -13,26 +13,7 @@ export const CardSobre = () => {
       </div>
         <div className={styles.contatos}>
             <div className={styles.photo}></div>
-            <div className={styles.container_detalhes}>
-              <div className={styles.detalhes}>
-                <BsFillPersonFill />
-                  <p>Pablo Vinícius</p>
-              </div>
-              <div className={styles.detalhes}>
-                <BsFillFilePersonFill />
-                  <p >Developer</p>
-              </div>
-              <div className={styles.detalhes}>
-                  <BsWhatsapp />
-                  <p>(62)99329-6503</p>
-              </div>
-              <div className={styles.detalhes}>
-                <MdEmail />
-                    <p> sviniciuspablo@gmail.com</p>
-              </div>
-         
-
-            </div>
+            
             </div>
     </div>
   )
