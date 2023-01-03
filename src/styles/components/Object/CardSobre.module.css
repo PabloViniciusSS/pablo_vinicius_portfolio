@@ -24,6 +24,22 @@
 }
 
 
+
+.contatos
+{
+  display: flex;
+  gap: 10rem;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  height: 50vh;
+  font-size:0.9em;
+  transition:all 0.2s ease-in-out;
+  text-align:center;
+}
+
+
 @media (max-width: 768px) {
  .container_sobre{
   margin-top: 2rem;
