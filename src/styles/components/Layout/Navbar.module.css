@@ -10,7 +10,14 @@
 .mobilenavigation{
   display: none;
 }
-
+.navbar_links ul{
+  display: flex;
+  width: 30vh;
+  justify-content: space-between;
+}
+.navbar_links ul *:hover{
+  border-bottom: solid 1px var(--brand);
+}
 
 
 @media screen and (max-width: 768px) {
@@ -60,7 +67,7 @@
     padding: 1.5rem 0;
 
 }
-.nav_links ul:hover{
+.navbar_links ul *:hover{
   border-bottom: solid 1px var(--brand);
 }
  .NavLinks{
