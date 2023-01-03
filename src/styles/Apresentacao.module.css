@@ -5,5 +5,10 @@
   justify-content: center;
   text-align: center;
   width: 100%;
-  height: 60vh;
+  height: 100vh;
+}
+
+.div_principal h1 h2 p{
+  text-align: center;
+
 }
