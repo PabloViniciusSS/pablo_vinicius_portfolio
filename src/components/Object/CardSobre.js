@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from '../../styles/components/Object/CardSobre.module.css'
-import { BsFillPersonFill, BsFillFilePersonFill, BsWhatsapp, BsGithub, BsLinkedin  } from "react-icons/bs";
 import { MdEmail  } from "react-icons/md";
 
 

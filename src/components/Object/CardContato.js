@@ -7,12 +7,11 @@ import { MdEmail  } from "react-icons/md";
 export const CardContato = (props) => {
   return (
     <div className={styles.container_contato}>
-     <div className={styles.container_detalhes}>
-              <a className={styles.detalhes}>
-                {props.icone}
-                  <p>{props.acesso}</p>
-              </a>
-      </div>
+                <a className={styles.detalhes} href={props.link}>
+                 <icon> {props.icone}</icon>
+                  <h3>{props.titulo}</h3>
+                    <p>{props.acesso}</p>
+                </a>
     </div>
   )
 }

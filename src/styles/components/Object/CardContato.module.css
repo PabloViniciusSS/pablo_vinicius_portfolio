@@ -1,3 +1,27 @@
 .container_contato{
-  
+    display: flex;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.container_contato:hover{
+    border: solid 5px var(--brand);
+}
+
+.container_contato icon{
+    font-size: 2rem;
+    color: var(--brand2);
+}
+
+.container_contato p{
+    font-weight: bolder;
+    color: var(--brand2);
+
 }

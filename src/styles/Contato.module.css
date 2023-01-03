@@ -1,3 +1,18 @@
 .container_contato{
   text-align: center;
+  width: 100%;
+
+  
+}
+
+.container_card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+
+
 }

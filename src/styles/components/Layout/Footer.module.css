@@ -4,5 +4,6 @@
   justify-content: center;
   flex-direction: row;
   text-align: center;
-
+  border-top: solid 1px var(--brand2);
+  
 }
