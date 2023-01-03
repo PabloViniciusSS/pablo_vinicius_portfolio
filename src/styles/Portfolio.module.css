@@ -1,7 +1,7 @@
 .container_portfolio{
   display:flex;
   flex-direction:column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content:center;
   gap: 2rem;
   height: auto;
@@ -18,8 +18,12 @@
 }
 .container{
   display:flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-around;
+  width: 100%;
+  height: 100%;
+
 }
 
 

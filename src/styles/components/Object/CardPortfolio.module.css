@@ -6,6 +6,7 @@
   padding: 30px;
   margin: 20px;
   width: 350px;
+  height: 180px;
   transition: all 0.3s ease-out;
   background-color:  #fff;
 }
