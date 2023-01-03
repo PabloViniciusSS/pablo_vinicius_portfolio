@@ -3,22 +3,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  justify-items: center;
-  width: 100%;
+  width: 100vh;
   
 }
 
-.container_sobre h3{
-  font-weight: bold
-}
 .container_sobre .container_text{
   text-align: left;
+  font-size: 20px;
   width: 50vh;
-  padding: 20px;
-  margin: 0 20rem 6rem 0 ;
-
-
 }
 
 .image{
@@ -32,12 +24,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-items: center;
   justify-content: center;
-  width: 500px;
+  width: 100%;
+  height: 50vh;
   padding:20px;
-  border:1px solid rgba(0,0,0,0.2);
-  border-radius:25px;
-  box-shadow:0 0 15px rgba(0,0,0,0.5);
+ 
   font-size:0.9em;
   transition:all 0.2s ease-in-out;
   text-align:center;
@@ -51,14 +43,13 @@
     display:inline-block;
     float:left;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 25vh;
+    width: 25vh;
     background-color: white;
     margin: 0 auto;
     background-image: url("/lado.jpg");
     background-size: cover;
     background-position: 50% 50%;
-    top:75px;
     box-shadow:0 0 2px rgba(0,0,0,0.5);
     transition:all 0.5s ease-in-out;
 
@@ -67,27 +58,11 @@
 
 
 
-.detalhes {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 10px;
-  flex-direction: row;
-  justify-items: center;
-  align-items: center;
-  min-width:250px;  
-  font-size: 1.4rem;
-  
-}
 
-.container_detalhes p{
-  font-size: 1.2rem;
-
-}
 
 
 
   
-
 
 
 
@@ -99,13 +74,5 @@
   justify-content: center;
  
  } 
-
- .container_sobre .container_text{
-  text-align: left;
-  width: 50vh;
-  padding: 20px;
-  margin-right: 0;
-
-}
 
 }
