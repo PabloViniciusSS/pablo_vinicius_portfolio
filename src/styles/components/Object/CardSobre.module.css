@@ -7,6 +7,21 @@
   
 
 
+.photo
+{
+    display:inline-block;
+    float:left;
+    border-radius: 50%;
+    height: 25vh;
+    width: 25vh;
+    background-color: white;
+    margin: 0 auto;
+    background-image: url("/lado.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow:0 0 2px rgba(0,0,0,0.5);
+    transition:all 0.5s ease-in-out;
+}
 
 
 @media (max-width: 768px) {
