@@ -5,6 +5,11 @@
   
 }
   
+.container_sobre .container_text{
+  text-align: left;
+  font-size: 1rem;
+  width: 50vh;
+}
 
 
 .photo
