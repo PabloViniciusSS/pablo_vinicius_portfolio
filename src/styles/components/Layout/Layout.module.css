@@ -3,6 +3,10 @@
   grid-template-rows: auto auto auto
   ;
 }
+.buttontop{
+  width: 50px !important;
+  height: 50px !important;
+}
 
 .container_navbar{
 }
