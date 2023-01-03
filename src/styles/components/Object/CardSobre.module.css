@@ -45,7 +45,7 @@
 
 
 @media (max-width: 768px) {
- .container_text{
+ .container_sobre{
   margin-top: 2rem;
   flex-direction: column;
   justify-content: center;
