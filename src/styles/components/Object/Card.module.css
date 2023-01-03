@@ -2,10 +2,8 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 180px;
+  width: 150px;
   height: 180px;
-  min-width: 15vh;
-  min-height: 15vh;
   align-items: center;
   justify-items: center;
   transition: all 0.3s ease-out;
@@ -37,8 +35,5 @@
     color: #fff;
   
   }
-  .container_card p {
-    display: none;
-    
-  }
+
 }
