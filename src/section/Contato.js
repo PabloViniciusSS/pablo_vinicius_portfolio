@@ -14,8 +14,8 @@ export default function Contato() {
           <CardContato
           icone={<BsWhatsapp/>}
           titulo="WhatsApp"
-          link="(62)993296503"
-          acesso="https://wa.me/5562993296503"
+          link="https://wa.me/5562993296503"
+          acesso="(62)993296503"
           />
       </div>
       <div className={styles.container}>

@@ -5,6 +5,8 @@
   justify-items: center;
   align-items: center;
   margin: 10px;
+  height: 56px;
+  padding: 16px;
 }
 
 .mobilenavigation{
