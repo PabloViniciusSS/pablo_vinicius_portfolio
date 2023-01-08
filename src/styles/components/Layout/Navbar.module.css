@@ -4,19 +4,29 @@
   justify-content: space-between;
   justify-items: center;
   align-items: center;
-  margin: 10px;
-  height: 56px;
+  width: 100%;
   padding: 16px;
+  height: 56px;
+}
+
+.logo{
+  font-size: 20px;
 }
 
 .mobilenavigation{
   display: none;
 }
+
 .navigation .navbar_links ul{
   display: flex;
-  width: 30vh;
   justify-content: space-between;
+  width: 400px;
+  font-size: 16px;
+
+
 }
+
+
 .navbar_links ul *:hover{
   border-bottom: solid 1px var(--brand);
 }
@@ -34,9 +44,9 @@
 
   .mobilenavigation .nav_hamburger .hamburger{
     border: 0;
-    height: 80px;
-    width: 60px;
-    padding: 10px;
+    height: 56px;
+    width: 56px;
+    padding: 16px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     position: absolute;

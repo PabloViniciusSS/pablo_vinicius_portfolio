@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export const Logo = () => {
   return (
-    <Link href="/" >    <img src='/Nome.png' className={styles.logo}/>
+    <Link href="/" >    <span className={styles.logo}> Pablo Vinícius</span>
     </Link>
   )
 }
