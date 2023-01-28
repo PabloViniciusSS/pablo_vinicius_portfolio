@@ -17,5 +17,11 @@ export const portfolioData = [
         link: 'https://github.com/PabloViniciusSS/levante-se-next',
         caminho: '/front.svg'
     },
+    {
+        title: 'Calculadora IMC',
+        description: 'App mobile para calcular imc',
+        link: 'https://github.com/PabloViniciusSS/app_healthimc',
+        caminho: '/Calculadora.png'
+    },
       
 ];

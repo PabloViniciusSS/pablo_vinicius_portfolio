@@ -7,7 +7,7 @@ export const skillData = [
     },
     {
         icone: <DiReact/>,
-          text: 'React JS'
+          text: 'React JS / React Native'
     },
     {
         icone: <DiPhp/>,
@@ -25,6 +25,7 @@ export const skillData = [
         icone: <DiYii/>,
         text: 'Yii'
     },
+
     
 
    
