@@ -16,9 +16,10 @@ export const MobileNavigation = () => {
       onClick={() => setOpen(!open)}
       />
       </div>
-      {open && <div className={styles.nav_links}>
-        <NavLinks />
-      </div>}
+      <div className={styles.nav_links}>
+      {open &&   <NavLinks onClick={() => setOpen(open)}
+      /> }
+      </div>
     </nav>
   )
 }
