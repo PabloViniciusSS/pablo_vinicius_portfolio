@@ -7,9 +7,6 @@ import { linkData } from "../../../../bd/LinkData";
 
 export const NavLinks = () => {
 
-  const [open, setOpen] = useState(false)
-
-
   return (
     <div className={styles.navbar_links}>
       <ul>
@@ -17,8 +14,7 @@ export const NavLinks = () => {
       <Link 
       key={index}
       href={linkData.link}
-      className={styles.botao}
-      onClick={() => setOpen(!open)}> 
+      className={styles.botao}> 
       
       {linkData.secao}</Link>
       ))}
