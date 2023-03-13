@@ -15,8 +15,8 @@ export const NavLinks = () => {
       key={index}
       href={linkData.link}
       className={styles.botao}> 
-      
-      {linkData.secao}</Link>
+      {linkData.secao}
+      </Link>
       ))}
       </ul>
      
